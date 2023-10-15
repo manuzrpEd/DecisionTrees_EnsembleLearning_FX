@@ -1,7 +1,14 @@
 # Python
 *.pyc
 *~
+settings.ini
+**/__pycache__/**
+**__init__.py/**
 __pycache__
+__pycache__/
+
+# ML states
+*.pth
 
 # Jupyter
 .ipynb_checkpoints
@@ -10,6 +17,7 @@ __pycache__
 **/.idea/**
 .env
 myvenv/
+myenv/
 venv/
 
 # Database
@@ -35,7 +43,15 @@ $RECYCLE.BIN/
 .history/
 *.code-workspace
 
-settings.ini
-**/__pycache__/**
-**__init__.py/**
-__pycache__/
+# Data files
+*.csv
+*.log
+
+#PyCharm
+*.git
+*.idea
+
+# PDFs
+*.pdf
+
+# Yml Config
